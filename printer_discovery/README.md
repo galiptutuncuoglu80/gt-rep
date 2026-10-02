@@ -15,6 +15,10 @@ Python 3.9+, standard library only.
 [`powershell/`](powershell/README.md). It needs no install (Windows PowerShell 5.1+),
 produces an identical CSV, and includes the UCMDB import and scheduling runbook.
 
+**UCMDB with UI-only access?** Use the native adapter in
+[`ucmdb/`](ucmdb/README.md). You paste it in through Adapter Management, it runs
+on the Data Flow Probe and reports printer CIs directly, and it needs no server login.
+
 ## Usage
 
 ```bash
