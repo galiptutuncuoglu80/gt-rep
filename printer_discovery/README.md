@@ -11,6 +11,10 @@ a single scanner host.
 
 Python 3.9+, standard library only.
 
+**No Python on the target server?** Use the PowerShell port in
+[`powershell/`](powershell/README.md). It needs no install (Windows PowerShell 5.1+),
+produces an identical CSV, and includes the UCMDB import and scheduling runbook.
+
 ## Usage
 
 ```bash
